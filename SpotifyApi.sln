@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0094F1DC-7788-4121-AB62-8C9342EDDA4F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Spotify.Api", "src\Spotify.Api\Spotify.Api.csproj", "{5121D753-464A-4641-9C03-79E3BF9100F3}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{15CCB85A-2B85-47EB-8AD3-E04B10FDC820}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Spotify.Api.Tests", "tests\Spotify.Api.Tests\Spotify.Api.Tests.csproj", "{17B0A3FD-7825-415D-A4B7-507464ABA454}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spotify.Api", "Spotify.Api\Spotify.Api.csproj", "{5121D753-464A-4641-9C03-79E3BF9100F3}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A0D1F787-F0AC-49A4-8378-E60D461B7207}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spotify.Api.Tests", "Spotify.Api.Tests\Spotify.Api.Tests.csproj", "{17B0A3FD-7825-415D-A4B7-507464ABA454}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{B8E4E6CF-8878-4455-A9CF-EEBF5AA1949B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,8 +30,8 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{5121D753-464A-4641-9C03-79E3BF9100F3} = {0094F1DC-7788-4121-AB62-8C9342EDDA4F}
-		{17B0A3FD-7825-415D-A4B7-507464ABA454} = {15CCB85A-2B85-47EB-8AD3-E04B10FDC820}
+		{5121D753-464A-4641-9C03-79E3BF9100F3} = {A0D1F787-F0AC-49A4-8378-E60D461B7207}
+		{17B0A3FD-7825-415D-A4B7-507464ABA454} = {B8E4E6CF-8878-4455-A9CF-EEBF5AA1949B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2ACAE339-36AD-4425-A2A8-805DAE1C3214}
